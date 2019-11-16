@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>MGames</title>
+        <link rel="icon" href="logo.png" type="'image/png'"/>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="buttons">
+                <div class="p-3 mb-2 bg-danger text-white" id="home-button">
+                    <form action="index.html">
+                        <input type="submit" class="btn btn-dark" value="Menu"/>
+                    </form>
+                </div>
+                <div class="p-3 mb-2 bg-danger text-white" id="game-button">
+                    <form action="games.html">
+                        <input type="submit" class="btn btn-dark" value="Games"/>
+                    </form>
+                </div>
+            </div>
+            <div class="p-3 mb-2 bg-danger text-white" id="home-background">
+                <h1 id="home-title">Games</h1>
+            </div>
+                    
+        </header>
+
+        <div class="p-3 mb-2 bg-danger text-white" id="snakegame">
+            <img src="snakegame.png">
+            <button class="btn btn-dark" onclick="window.location.href = 'snakepc.html';">Play!</button>
+        </div>  
+    </body>
+
+</html>
