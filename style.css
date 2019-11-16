@@ -23,12 +23,18 @@ body{
 }
 
 footer{
-    float: bottom; 
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+      
 }
 
-#tired {   
-    width: 150px; 
-    height: 150px;  
+#logo {   
+    width: 25%; 
+    height: 25%;  
     border-image-width: 50px; 
 }
 
@@ -50,6 +56,11 @@ footer{
 }
 
 #snakecover {
-    width: 75%; 
-    height: 75%; 
+    width: 50%; 
+    height: 50%; 
 }
+
+#premium-button{
+    float: right; 
+}
+
