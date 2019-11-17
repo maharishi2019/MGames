@@ -1,4 +1,3 @@
-var foot = document.getElementById("footer")
 function hideFooter(){
-    foot.style.visibility= hidden; 
+    document.getElementById("webfooter").style.display= none; 
 }
