@@ -30,7 +30,7 @@ footer{
     width: 100px; 
     height: 100px; 
     border: none;
-    float: left; 
+    float: right; 
   }
   
   .dropdown {
