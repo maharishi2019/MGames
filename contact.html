@@ -38,15 +38,14 @@
         </header>
 
         <form id="contactusform" class="p-3 mb-2 bg-danger text-white"action="mail.php" method="POST">
-                <p>Name</p> <input type="text" name="name">
-                <p>Email</p> <input type="text" name="email">
-                <p>Phone</p> <input type="text" name="phone">
+                <input placeholder="name"type="text" name="name">
+                <input placeholder="email" type="text" name="email">
+                <input placeholder="phone" type="text" name="phone">
                 
                 <p>Request Phone Call:</p>
                 Yes:<input type="checkbox" value="Yes" name="call"><br />
                 No:<input type="checkbox" value="No" name="call"><br />
                 
-                <p>Website</p> <input type="text" name="website">
                 
                 <p>Priority</p>
                 <select name="priority" size="1">
@@ -67,7 +66,7 @@
                 <br />
                 
                 <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-                <input class="btn btn-danger"type="submit" value="Send"><input class="btn btn-danger" type="reset" value="Clear">
+                <input class="btn btn-danger"type="submit" value="Send"><hr><input class="btn btn-danger" type="reset" value="Clear">
         </form>
 
     </body>
