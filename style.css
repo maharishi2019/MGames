@@ -84,10 +84,15 @@ footer{
 }
 
 #mariocover{
-    width: 50%; 
-    height: 50%;
+    width: 25%; 
+    height: 25%;
 }
 #cuttheropecover{
-    width: 50%; 
-    height: 50%;
+    width: 25%; 
+    height: 25%;
+}
+
+#tetriscover{
+    width: 25%; 
+    height: 25%;
 }
