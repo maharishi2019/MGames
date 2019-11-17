@@ -2,7 +2,6 @@
 $name = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
-$call = $_POST['call'];
 $priority = $_POST['priority'];
 $type = $_POST['type'];
 $message = $_POST['message'];
