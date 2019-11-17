@@ -31,19 +31,26 @@
             <h5 id="quote"> "Here for the people, only for the people."
             </h5>
         </div>
-        <div class="p-3 mb-2 bg-dark text-white" id="news">
-            <h5 id="news"><u>News</u></h5>
-            <hr>
-            <img class="center" id="newsimage" src="images/contact.png"/>
-            <p id="news">11/16/19: Contact us if you have any questions, suggestions, or 
-                if you want to report any bugs! You can also contact us if you want to get employed! 
-            </p>
-            <hr>
-            <img class="center" id="newsimage" src="images/employment.png"/>
-            <p id="news">Our premium games section does seem a little bit empty...do you know how to make 
-                games in javascript and html? Please contact us if you are interested in joining our company! 
-            </p>
-        </div>
+        
+        <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <button id="gamesshortcut" onclick="window.location.href= 'games.html';">Check out amazing 
+                    games!</button>
+                  </div>
+                  <div class="col">
+                    <button id="premiumshortcut" onclick="window.location.href= 'premium.html';">Play our premium  
+                            games!</button>
+                  </div>
+                </div>
+                <div class="row">
+                        <div class="col">
+                          <button id="updateshortcut" onclick="window.location.href= 'updates.html';">See what is new!</button>
+                        </div>
+                        <div class="col">
+                          <button id="contactshortcut" onclick="window.location.href= 'contact.html';">Contact Us!</button>
+                        </div>
+                </div>
         <footer id="webfooter" class="p-3 mb-2 bg-primary text-white">
                 <form action="contact.html">
                     <input type="submit" class="btn btn-dark" value="Contact Us"/>
