@@ -1,9 +1,4 @@
-$(function() {
-    $(document).on("mousewheel", function() {
-      if($(document).scrollBottom() > 50){
-          $('footer').hide();
-      } else {
-          $('footer').show();
-      }; 
-    })
-  });
+var foot = document.getElementById("footer")
+function hideFooter(){
+    foot.style.visibility= hidden; 
+}
