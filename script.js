@@ -1,9 +1,10 @@
-var userClickedHideFooter = 0; 
 function hideFooter(){
     document.getElementById("webfooter").style.display= 'none'; 
-    userClickedHideFooter = 1; 
+    var userClickedHideFooter = 1; 
+
+    localStorage.setItem("footerClicked", userClickedHideFooter);
 }
 
-if (userClickedHideFooter === 1){
+if (localStorage.getItem("footerClicked") === 1){
     document.getElementById("webfooter").style.display='none'; 
 }
