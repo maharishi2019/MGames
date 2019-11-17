@@ -97,5 +97,6 @@ footer{
     height: 25%;
 }
 
-
-
+#contactusform{
+    text-align: center; 
+}
