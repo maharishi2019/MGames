@@ -149,7 +149,22 @@ footer{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-#pigeondropcover{
-    width: 25%; 
-    height: 25%;
+#snakegame{
+    width: 100%; 
+    height: 100%; 
+}
+
+#tetris{
+    width: 100%; 
+    height: 100%; 
+}
+
+#mario{
+    width: 100%; 
+    height: 100%; 
+}
+
+#cuttherope{
+    width: 100%; 
+    height: 100%; 
 }
