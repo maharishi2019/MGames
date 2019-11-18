@@ -148,3 +148,8 @@ footer{
     height: 100%; 
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
+
+#pigeondropcover{
+    width: 25%; 
+    height: 25%;
+}
