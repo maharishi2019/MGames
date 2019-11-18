@@ -127,3 +127,23 @@ footer{
     width: 1%; 
     height: 1%; 
 }
+
+#premiumshortcut{
+    width: 50%; 
+    height: 50%; 
+}
+
+#gamesshortcut{
+    width: 50%; 
+    height: 50%; 
+}
+
+#updateshortcut{
+    width: 50%; 
+    height: 50%; 
+}
+
+#contactshortcut{
+    width: 50%; 
+    height: 50%; 
+}
