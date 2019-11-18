@@ -180,7 +180,12 @@ footer{
     height: 100%; 
 }
 
-#forest{
+#minecraft{
     width: 100%; 
     height: 100%;
+}
+
+#minecraftcover{
+    width:100px; 
+    height:100px; 
 }
