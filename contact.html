@@ -8,7 +8,7 @@
         <script src="script.js"></script>
     </head>
     <body>
-        <header class="p-3 mb-2 bg-primary btn-lg text-white"  id="header">
+        <header class="header"  id="header">
                 <div class="dropdown">
                         <button class="dropbtn">Menu</button>
                         <div class="dropdown-content">
@@ -25,14 +25,14 @@
                     
         </header>
 
-        <form id="contactusform" class="p-3 mb-2 bg-primary text-white" action="index.html" method="POST" netlify>
+        <form id="contactusform" class="content-color" action="index.html" method="POST" netlify>
                 <input placeholder="Name"type="text" name="name">
                 <hr>
                 <input placeholder="Email" type="text" name="email">
                 <hr>
                 <input placeholder="Phone" type="text" name="phone">
                 <hr>
-                <p>Priority</p>
+                <p class="textcolor">Priority</p>
                 <select name="priority" size="1">
                 <option value="Low">Low</option>
                 <option value="Normal">Normal</option>
@@ -41,7 +41,7 @@
                 </select>
                 <br />
                 <hr>
-                <p>Type</p>
+                <p class="textcolor">Type</p>
                 <select name="type" size="1">
                 <option value="update">Suggestion</option>
                 <option value="change">Bug</option>
@@ -50,8 +50,8 @@
                 </select>
                 <br />
                 <hr>
-                <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-                <input class="btn btn-dark"type="submit" value="Send"><hr><input class="btn btn-dark" type="reset" value="Clear">
+                <p class="textcolor">Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+                <input class="btn button" type="submit" value="Send"><hr><input class="btn button" type="reset" value="Clear">
         </form>
 
     </body>

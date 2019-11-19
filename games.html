@@ -8,7 +8,7 @@
         <script src="script.js"></script>
     </head>
     <body>
-        <header class="p-3 mb-2 bg-primary btn-lg text-white"  id="header">
+        <header class="header"  id="header">
                 <div class="dropdown">
                         <button class="dropbtn">Menu</button>
                         <div class="dropdown-content">
@@ -28,43 +28,46 @@
         <div class="container">
                 <div class="row">
                   <div class="col">
-                        <div class="p-3 mb-2 bg-dark text-white" id="snakegame">
-                                <img id="snakecover" src="images/snakegame.jpg">
-                                <button class="btn btn-info" onclick="window.location.href = 'snakepc.html';">Play!</button>
+                        <div class="content-color" id="snakegame">
+                                <img class="threed" id="snakecover" src="images/snakegame.jpg">
+                                <button class="btn button" onclick="window.location.href = 'snakepc.html';">Snake</button>
                             </div>
                   </div>
                   <div class="col">
-                        <div class="p-3 mb-2 bg-dark text-white" id="tetris">
-                                <img id="tetriscover" src="images/tetris.png">
-                                <button class="btn btn-info" onclick="window.location.href = 'javascript-tetris-master/javascript-tetris-master/tetris.html';">Play!</button>
+                        <div class="content-color" id="tetris">
+                                <img class="threed" id="tetriscover" src="images/tetris.png">
+                                <button class="btn button" onclick="window.location.href = 'javascript-tetris-master/javascript-tetris-master/tetris.html';">Tetris</button>
                             </div> 
                   </div>
                 </div>
                 <hr>
                 <div class="row">
                         <div class="col">
-                                <div class="p-3 mb-2 bg-dark text-white" id="mario">
-                                        <img id="mariocover" src="images/mario.png">
-                                        <button class="btn btn-info" onclick="window.location.href = 'mariohtml5-master/mario.html';">Play!</button>
+                                <div class="content-color" id="mario">
+                                        <img class="threed" id="mariocover" src="images/mario.png">
+                                        <button class="btn button" onclick="window.location.href = 'mariohtml5-master/mario.html';">Mario</button>
                                     </div>
                         </div>
                         <div class="col">
-                                <div class="p-3 mb-2 bg-dark text-white" id="cuttherope">
-                                        <img id="cuttheropecover" src="images/cuttherope.jpg">
-                                        <button class="btn btn-info" onclick="window.location.href = 'CutTheRope/levels/CutTheRope.html';">Play!</button>
+                                <div class="content-color" id="cuttherope">
+                                        <img class="threed" id="cuttheropecover" src="images/cuttherope.jpg">
+                                        <button class="btn button" onclick="window.location.href = 'CutTheRope/levels/CutTheRope.html';">Cut the Rope</button>
                                 </div>
                         </div>
                 </div>
                 <hr>
                 <div class="row">
                         <div class="col">
-                                <div class="p-3 mb-2 bg-dark text-white" id="basketball ">
-                                        <img id="basketballcover" src="images/basketball.png">
-                                        <button class="btn btn-info" onclick="window.location.href = 'basketball-master/basketball.html';">Play!</button>
+                                <div class="content-color" id="basketball ">
+                                        <img class="threed" id="basketballcover" src="images/basketball.png">
+                                        <button class="btn button" onclick="window.location.href = 'basketball-master/basketball.html';">Basketball</button>
                                 </div>
                         </div>
                         <div class="col">
-                                
+                                <div class="content-color" id="pacman">
+                                        <img class="threed" id="pacmancover" src="images/pacman.jpg">
+                                        <button class="btn button" onclick="window.location.href = 'pacman-master/pacman.html';">Pacman</button>
+                                </div>
                         </div>
                 </div>
 
@@ -74,9 +77,9 @@
         
         
 
-        <footer id="webfooter" class="p-3 mb-2 bg-primary text-white">
+        <footer id="webfooter">
                 <form action="contact.html">
-                        <input type="submit" class="btn btn-dark" value="Contact Us"/>
+                        <input type="submit" id="contactbutton" class="btn button" value="Contact Us"/>
                     </form>
                 <img id="footerHide" src="images/cancel.jpg" onclick="hideFooter();"/>
         </footer>
