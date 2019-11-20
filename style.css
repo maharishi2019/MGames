@@ -224,3 +224,8 @@ footer{
     width: 100px; 
     height: 100px; 
 }
+
+.closebutton{ 
+    content: "\00d7";
+    float: right; 
+}
