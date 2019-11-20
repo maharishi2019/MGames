@@ -231,5 +231,6 @@ footer{
   }
 
   i {
+    border: solid black;
     display: inline-block; 
   }
