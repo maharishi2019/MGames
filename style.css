@@ -231,9 +231,5 @@ footer{
   }
 
   i {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: block; 
-    padding: 3px;
-    float: left; 
+    display: inline-block; 
   }
